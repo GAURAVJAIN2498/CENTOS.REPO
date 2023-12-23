@@ -1,0 +1,32 @@
+#
+
+[base-source]
+name=CentOS-7 - Base Sources
+baseurl=http://vault.centos.org/centos/7/os/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#released updates 
+[updates-source]
+name=CentOS-7 - Updates Sources
+baseurl=http://vault.centos.org/centos/7/updates/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#additional packages that may be useful
+[extras-source]
+name=CentOS-7 - Extras Sources
+baseurl=http://vault.centos.org/centos/7/extras/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+#additional packages that extend functionality of existing packages
+[centosplus-source]
+name=CentOS-7 - Plus Sources
+baseurl=http://vault.centos.org/centos/7/centosplus/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
